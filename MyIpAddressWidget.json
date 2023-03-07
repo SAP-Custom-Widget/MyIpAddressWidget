@@ -1,0 +1,79 @@
+{
+    "id": "com.rohitchouhan.sap.myipaddresswidget",
+    "version": "1.0.0",
+    "name": "My Ip Address Widget",
+    "description": "SAC Custom Widget to get Ip address, country, city, zip etc",
+    "newInstancePrefix": "MyIpAddressWidget",
+    "vendor": "Rohit Chouhan",
+    "eula": "",
+    "license": "MIT",
+    "icon": "https:\/\/raw.githubusercontent.com\/SAP-Custom-Widget\/MyIpAddressWidget\/main\/icon.png",
+    "webcomponents": [
+        {
+            "kind": "builder",
+            "tag": "com-rohitchouhan-sap-myipaddresswidget-builder",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/MyIpAddressWidget@1.0.0\/MyIpAddressWidget.js",
+            "integrity": "",
+            "ignoreIntegrity": true
+        }
+    ],
+    "properties": {
+        "ipAddress": {
+            "description": "Current IP Address",
+            "type": "string",
+            "default": ""
+        },
+        "countryName": {
+            "description": "Current Country Name",
+            "type": "string",
+            "default": ""
+        },
+        "countryCode": {
+            "description": "Current Country Code",
+            "type": "string",
+            "default": ""
+        },
+        "cityName": {
+            "description": "Current City Name",
+            "type": "string",
+            "default": ""
+        },
+        "zipCode": {
+            "description": "Current City Zip Code",
+            "type": "string",
+            "default": ""
+        }
+    },
+    "methods": {
+        "getIpAddress": {
+            "returnType": "string",
+            "description": "Return Current IP Address",
+            "body": "return this.ipAddress;"
+        },
+        "getCountryName": {
+            "returnType": "string",
+            "description": "Return Current Country Name",
+            "body": "return this.countryName;"
+        },
+        "getCountryCode": {
+            "returnType": "string",
+            "description": "Return Current Country Code",
+            "body": "return this.countryCode;"
+        },
+        "getCityName": {
+            "returnType": "string",
+            "description": "Return Current City Name",
+            "body": "return this.cityName;"
+        },
+        "getZipCode": {
+            "returnType": "string",
+            "description": "Return Current City Zip Code",
+            "body": "return this.zipCode;"
+        }
+    },
+    "events": {
+        "onClick": {
+            "description": "User Clicked."
+        }
+    }
+}
