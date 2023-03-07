@@ -12,7 +12,7 @@
         {
             "kind": "main",
             "tag": "com-rohitchouhan-sap-myipaddresswidget",
-            "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/MyIpAddressWidget@1.0.0\/MyIpAddressWidget.js",
+            "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/MyIpAddressWidget@1.0.1\/MyIpAddressWidget.js",
             "integrity": "",
             "ignoreIntegrity": true
         }
