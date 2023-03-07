@@ -1,6 +1,6 @@
 {
     "id": "com.rohitchouhan.sap.myipaddresswidget",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "My Ip Address Widget",
     "description": "SAC Custom Widget to get Ip address, country, city, zip etc",
     "newInstancePrefix": "MyIpAddressWidget",
@@ -10,8 +10,8 @@
     "icon": "https:\/\/raw.githubusercontent.com\/SAP-Custom-Widget\/MyIpAddressWidget\/main\/icon.png",
     "webcomponents": [
         {
-            "kind": "builder",
-            "tag": "com-rohitchouhan-sap-myipaddresswidget-builder",
+            "kind": "main",
+            "tag": "com-rohitchouhan-sap-myipaddresswidget",
             "url": "https:\/\/cdn.jsdelivr.net\/gh\/SAP-Custom-Widget\/MyIpAddressWidget@1.0.0\/MyIpAddressWidget.js",
             "integrity": "",
             "ignoreIntegrity": true
